@@ -18,23 +18,23 @@ with <i>SOLID</i> principles, Dependency <i>Injection</i> and other ***OOP*** pr
 
 ## :hammer: Structure
 ----
-|![s](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiO4lQqk3WdWPM8CwRzCBTio6l35HJBydQwg&usqp=CAU)|
+|<img src="https://png.pngtree.com/png-clipart/20190520/original/pngtree-computer-monitor-icon-png-image_4275405.jpg" alt="drawing" width="30"/>|
 |----------|
-|<h4 align="center">:arrow_double_down::arrow_double_up:</h4>|
-|<h5 align="center">Filter</h5>            |
-|<h5 align="center">Controller</h5>|
-|<h5 align="center">:arrow_down::arrow_up:</h5>|
-|<h4 align="center">Service</h4>|
-|<h5 align="center">:arrow_down::arrow_up:</h5>|
-|<h4 align="center">Dao</h4>|
-|<h5 align="center">:arrow_double_down::arrow_double_up:</h5>|
-|![db](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZaz1uTiKJsyaDb-hTIFPu96fFRJbhmtdeA&usqp=CAU)|
+|<div align="center">:arrow_double_down::arrow_double_up:</div>|
+|<div align="center">Filter</div>            |
+|<div align="center">Controller</div>|
+|<div align="center">:arrow_down::arrow_up:</div>|
+|<div align="center">Service</div>|
+|<div align="center">:arrow_down::arrow_up:</div>|
+|<div align="center">Dao</div>|
+|<div align="center">:arrow_double_down::arrow_double_up:</div>|
+|<div align="center"><img src="https://png.pngtree.com/png-clipart/20191121/original/pngtree-beautiful-database-vector-glyph-icon-png-image_5149700.jpg" alt="database" width="30"/></div>|
 
 ## :key: Entity relations in DB
 ---
-![image](https://user-images.githubusercontent.com/112484426/204644103-7ec41c09-05e6-4f3b-9341-47ddeaf81d3b.png)
+<img src="https://user-images.githubusercontent.com/112484426/204644103-7ec41c09-05e6-4f3b-9341-47ddeaf81d3b.png" alt="drawing" width="400"/>
 
-## :wrench: Tools
+## :wrench: Technologies
 ---
 + ![JDK](https://img.shields.io/badge/JDK-11-red)
 + ![maven](https://img.shields.io/badge/Maven-3.8.1-blue)
@@ -50,21 +50,14 @@ with <i>SOLID</i> principles, Dependency <i>Injection</i> and other ***OOP*** pr
 ## :rocket: Run the app
 ---
 + [ ] Clone the project from the GitHub
-+ [ ] Copy [this](https://github.com/Andew-Miroshnikov/My-taxi-service/blob/hww/src/main/resources/init_db.sql) configuration to create schema
++ [ ] Copy [init_db](https://github.com/Andew-Miroshnikov/My-taxi-service/blob/hww/src/main/resources/init_db.sql) configuration to create schema
 + [ ] Create connection in **taxi/util/ConnectionUtil.java** class
   + [ ] write your **URL**
   + [ ] write your **USERNAME**
   + [ ] write your **PASSWORD**
   + [ ] write your **JDBC_DRIVER**
     + :warning: if you have problems with this punkt you can easely find it in internet, just write "***YOUR DATABASE NAME*** *driver class name*"
-  + :checkered_flag: example
-    ```java
-    private static final String URL = "jdbc:mysql://localhost:3306/taxi?serverTimezone=UTC";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "1234";
-    private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-     ```
-
+  + :checkered_flag: [example](https://github.com/Andew-Miroshnikov/My-taxi-service/compare/main...hww#diff-67990aab3e255acfb9e03b838bc8929e2166627b6cdd8f10b339c19909e2f3beR9-R12)
   + :eyes: pay attention for this part "?serverTimezone=UTC"
   + :warning: if u use not MySql database , don't forgot to change dependency in pom.xml
     ```java
@@ -78,4 +71,3 @@ with <i>SOLID</i> principles, Dependency <i>Injection</i> and other ***OOP*** pr
 + [ ] Configure Tomcat server, can download [here](https://tomcat.apache.org/download-90.cgi)
   + :warning: not recommended to use tomcat 10 version , cause you can need extra settings
 + [ ] Run Tomcat feel free to push buttons and write your data in query :octocat:   
-+ 
