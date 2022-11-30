@@ -16,13 +16,12 @@ with <i>SOLID</i> principles, Dependency <i>Injection</i> and other ***OOP*** pr
 + [X] create/update/remove driver
 + [X] display list of all drivers
 
-## :hammer: Structure
+## :pancakes: Structure
 ----
-|<img src="https://spaces-cdn.clipsafari.com/cehwijh0e7m9jv1r9g7hrgz5u70i" alt="drawing" width="30"/>|
+|<img src="https://spaces-cdn.clipsafari.com/cehwijh0e7m9jv1r9g7hrgz5u70i" alt="comp" width="30"/>|
 |----------|
 |<div align="center">:arrow_double_down::arrow_double_up:</div>|
-|<div align="center">Filter</div>            |
-|<div align="center">Controller</div>|
+|<div align="center">Filter</div><div align="center">Controller</div>|
 |<div align="center">:arrow_down::arrow_up:</div>|
 |<div align="center">Service</div>|
 |<div align="center">:arrow_down::arrow_up:</div>|
@@ -34,7 +33,7 @@ with <i>SOLID</i> principles, Dependency <i>Injection</i> and other ***OOP*** pr
 ---
 <img src="https://user-images.githubusercontent.com/112484426/204644103-7ec41c09-05e6-4f3b-9341-47ddeaf81d3b.png" alt="drawing" width="400"/>
 
-## :wrench: Technologies
+## :electron: Technologies
 ---
 + ![JDK](https://img.shields.io/badge/JDK-11-red)
 + ![maven](https://img.shields.io/badge/Maven-3.8.1-blue)
@@ -59,7 +58,7 @@ with <i>SOLID</i> principles, Dependency <i>Injection</i> and other ***OOP*** pr
     + :warning: if you have problems with this punkt you can easely find it in internet, just write "***YOUR DATABASE NAME*** *driver class name*"
   + :checkered_flag: [example](https://github.com/Andew-Miroshnikov/My-taxi-service/compare/main...hww#diff-67990aab3e255acfb9e03b838bc8929e2166627b6cdd8f10b339c19909e2f3beR9-R12)
   + :eyes: pay attention for this part `?serverTimezone=UTC`
-  + :warning: if u use not MySql database , don't forgot to change dependency in pom.xml
+  + :warning: if u use not [MySql](https://dev.mysql.com/downloads/installer/) database , don't forgot to change dependency in **pom.xml**
     ```java
     <dependencies>
       <dependency>
@@ -68,6 +67,6 @@ with <i>SOLID</i> principles, Dependency <i>Injection</i> and other ***OOP*** pr
           <version>8.0.22</version>
       </dependency>
       ```
-+ [ ] Configure Tomcat server, can download [here](https://tomcat.apache.org/download-90.cgi)
++ [ ] Configure [Tomcat](https://tomcat.apache.org/download-90.cgi) local server
   + :warning: not recommended to use tomcat 10 version , cause you can need extra settings
 + [ ] Run Tomcat feel free to push buttons and write your data in query :octocat:   
