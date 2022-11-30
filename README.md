@@ -18,7 +18,7 @@ with <i>SOLID</i> principles, Dependency <i>Injection</i> and other ***OOP*** pr
 
 ## :hammer: Structure
 ----
-|<img src="https://png.pngtree.com/png-clipart/20190520/original/pngtree-computer-monitor-icon-png-image_4275405.jpg" alt="drawing" width="30"/>|
+|<img src="https://spaces-cdn.clipsafari.com/cehwijh0e7m9jv1r9g7hrgz5u70i" alt="drawing" width="30"/>|
 |----------|
 |<div align="center">:arrow_double_down::arrow_double_up:</div>|
 |<div align="center">Filter</div>            |
@@ -28,7 +28,7 @@ with <i>SOLID</i> principles, Dependency <i>Injection</i> and other ***OOP*** pr
 |<div align="center">:arrow_down::arrow_up:</div>|
 |<div align="center">Dao</div>|
 |<div align="center">:arrow_double_down::arrow_double_up:</div>|
-|<div align="center"><img src="https://png.pngtree.com/png-clipart/20191121/original/pngtree-beautiful-database-vector-glyph-icon-png-image_5149700.jpg" alt="database" width="30"/></div>|
+|<div align="center"><img src="https://spaces-cdn.clipsafari.com/bsu2nc68wv4cpli10l62sotq9ma4" alt="database" width="30"/></div>|
 
 ## :key: Entity relations in DB
 ---
