@@ -50,7 +50,7 @@ with <i>SOLID</i> principles, Dependency <i>Injection</i> and other ***OOP*** pr
 ## :rocket: Run the app
 ---
 + [ ] Clone the project from the GitHub
-+ [ ] Copy [this]() configuration to create schema
++ [ ] Copy [this](https://github.com/Andew-Miroshnikov/My-taxi-service/blob/hww/src/main/resources/init_db.sql) configuration to create schema
 + [ ] Create connection in **taxi/util/ConnectionUtil.java** class
   + [ ] write your **URL**
   + [ ] write your **USERNAME**
@@ -75,7 +75,7 @@ with <i>SOLID</i> principles, Dependency <i>Injection</i> and other ***OOP*** pr
           <version>8.0.22</version>
       </dependency>
       ```
-+ [ ] Configure Tomcat server
++ [ ] Configure Tomcat server, can download [here](https://tomcat.apache.org/download-90.cgi)
   + :warning: not recommended to use tomcat 10 version , cause you can need extra settings
 + [ ] Run Tomcat feel free to push buttons and write your data in query :octocat:   
 + 
