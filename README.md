@@ -52,11 +52,11 @@ with <i>SOLID</i> principles, Dependency <i>Injection</i> and other ***OOP*** pr
 + [ ] Copy [init_db](https://github.com/Andew-Miroshnikov/My-taxi-service/blob/hww/src/main/resources/init_db.sql) configuration to create schema
 + [ ] Create connection in [**taxi/util/ConnectionUtil.java**](https://github.com/Andew-Miroshnikov/My-taxi-service/blob/hww/src/main/java/taxi/util/ConnectionUtil.java) class
   + [ ] write your **URL**
+      + :eyes: pay attention for this part `?serverTimezone=UTC`
   + [ ] write your **USERNAME**
   + [ ] write your **PASSWORD**
   + [ ] write your **JDBC_DRIVER**
     + :warning: if you have problems with this punkt you can easely find it in internet, just write "***YOUR DATABASE NAME*** *driver class name*"
-  + :eyes: pay attention for this part `?serverTimezone=UTC`
   + :warning: if u use not [MySql](https://dev.mysql.com/downloads/installer/) database , don't forgot to change dependency in **pom.xml**
     ```java
     <dependencies>
