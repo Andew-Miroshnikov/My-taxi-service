@@ -50,7 +50,7 @@ with <i>SOLID</i> principles, Dependency <i>Injection</i> and other ***OOP*** pr
 ---
 + [ ] Clone the project from the GitHub
 + [ ] Copy [init_db](https://github.com/Andew-Miroshnikov/My-taxi-service/blob/hww/src/main/resources/init_db.sql) configuration to create schema
-+ [ ] Create connection in [**taxi/util/ConnectionUtil.java**](https://github.com/Andew-Miroshnikov/My-taxi-service/blob/hww/src/main/java/taxi/util/ConnectionUtil.java) class
++ [ ] Create connection in [**taxi/util/ConnectionUtil.java**](https://github.com/Andew-Miroshnikov/My-taxi-service/blob/main/src/main/java/taxi/util/ConnectionUtil.java) class
   + [ ] write your **URL**
       + :eyes: pay attention for this part `?serverTimezone=UTC`
   + [ ] write your **USERNAME**
