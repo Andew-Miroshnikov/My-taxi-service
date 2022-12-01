@@ -50,13 +50,12 @@ with <i>SOLID</i> principles, Dependency <i>Injection</i> and other ***OOP*** pr
 ---
 + [ ] Clone the project from the GitHub
 + [ ] Copy [init_db](https://github.com/Andew-Miroshnikov/My-taxi-service/blob/hww/src/main/resources/init_db.sql) configuration to create schema
-+ [ ] Create connection in **taxi/util/ConnectionUtil.java** class
++ [ ] Create connection in [**taxi/util/ConnectionUtil.java**](https://github.com/Andew-Miroshnikov/My-taxi-service/blob/hww/src/main/java/taxi/util/ConnectionUtil.java) class
   + [ ] write your **URL**
   + [ ] write your **USERNAME**
   + [ ] write your **PASSWORD**
   + [ ] write your **JDBC_DRIVER**
     + :warning: if you have problems with this punkt you can easely find it in internet, just write "***YOUR DATABASE NAME*** *driver class name*"
-  + :checkered_flag: [example](https://github.com/Andew-Miroshnikov/My-taxi-service/compare/main...hww#diff-67990aab3e255acfb9e03b838bc8929e2166627b6cdd8f10b339c19909e2f3beR9-R12)
   + :eyes: pay attention for this part `?serverTimezone=UTC`
   + :warning: if u use not [MySql](https://dev.mysql.com/downloads/installer/) database , don't forgot to change dependency in **pom.xml**
     ```java
